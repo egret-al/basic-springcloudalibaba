@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/account-microservice/account-microservice.iml" filepath="$PROJECT_DIR$/account-microservice/account-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-microservice/order-microservice.iml" filepath="$PROJECT_DIR$/order-microservice/order-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudalibaba.iml" filepath="$PROJECT_DIR$/springcloudalibaba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/storage-microservice/storage-microservice.iml" filepath="$PROJECT_DIR$/storage-microservice/storage-microservice.iml" />
+    </modules>
+  </component>
+</project>
