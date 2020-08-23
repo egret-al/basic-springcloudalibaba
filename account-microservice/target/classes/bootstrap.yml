@@ -15,3 +15,4 @@ spring:
         file-extension: yaml
         group: TEST_GROUP
         namespace: 365bf617-388b-44f5-ad1e-7a5fb504613f
+        timeout: 5000

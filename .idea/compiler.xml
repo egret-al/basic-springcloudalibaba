@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="order-microservice" />
         <module name="account-microservice" />
+        <module name="gateway-microservice" />
         <module name="storage-microservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="12">
       <module name="account-microservice" target="1.8" />
+      <module name="gateway-microservice" target="1.8" />
       <module name="order-microservice" target="1.8" />
       <module name="springcloudalibaba" target="1.8" />
       <module name="stoarge-microservice" target="1.8" />

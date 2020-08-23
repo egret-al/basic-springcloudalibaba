@@ -9,6 +9,7 @@
         <module>account-microservice</module>
         <module>storage-microservice</module>
         <module>order-microservice</module>
+        <module>gateway-microservice</module>
     </modules>
     <name>springcloudalibaba</name>
     <description>Demo project for Spring Boot</description>

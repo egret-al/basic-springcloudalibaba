@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/account-microservice/account-microservice.iml" filepath="$PROJECT_DIR$/account-microservice/account-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-microservice/gateway-microservice.iml" filepath="$PROJECT_DIR$/gateway-microservice/gateway-microservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-microservice/order-microservice.iml" filepath="$PROJECT_DIR$/order-microservice/order-microservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloudalibaba.iml" filepath="$PROJECT_DIR$/springcloudalibaba.iml" />
       <module fileurl="file://$PROJECT_DIR$/storage-microservice/storage-microservice.iml" filepath="$PROJECT_DIR$/storage-microservice/storage-microservice.iml" />
