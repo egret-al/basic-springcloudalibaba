@@ -23,7 +23,7 @@ public class AccountServiceImpl implements AccountService {
     @Override
     public void decrease(Long userId, BigDecimal money) {
         log.info("账户微服务开始");
-//        int i = 1 / 0;
+        int i = 1 / 0;
         accountDao.decrease(userId, money);
         log.info("账户微服务完成");
     }

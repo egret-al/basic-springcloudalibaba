@@ -3,17 +3,17 @@ server:
 
 spring:
   profiles:
-    active: test
+    active: default
   application:
     name: gateway-service
   cloud:
     nacos:
       discovery:
         server-addr: 101.200.203.216:8848
-        group: TEST_GROUP
+#        group: TEST_GROUP
       config:
         server-addr: 101.200.203.216:8848
         file-extension: yaml
-        group: TEST_GROUP
-        namespace: 365bf617-388b-44f5-ad1e-7a5fb504613f
+#        group: TEST_GROUP
+#        namespace: 365bf617-388b-44f5-ad1e-7a5fb504613f
         timeout: 5000

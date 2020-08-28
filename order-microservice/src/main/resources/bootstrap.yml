@@ -16,3 +16,25 @@ spring:
         #group: TEST_GROUP
         #namespace: 365bf617-388b-44f5-ad1e-7a5fb504613f
         timeout: 5000
+
+seata:
+  enabled: true
+  application-id: order-server
+  tx-service-group: my_test_tx_group
+  enable-auto-data-source-proxy: true
+  config:
+    type: nacos
+    nacos:
+      namespace:
+      serverAddr: 101.200.203.216:8848
+      group: SEATA_GROUP
+      userName: "nacos"
+      password: "nacos"
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server
+      server-addr: 101.200.203.216:8848
+      namespace:
+      userName: "nacos"
+      password: "nacos"

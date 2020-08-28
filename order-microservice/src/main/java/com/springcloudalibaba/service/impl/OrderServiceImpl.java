@@ -8,6 +8,7 @@ import com.springcloudalibaba.service.StorageService;
 import io.seata.spring.annotation.GlobalTransactional;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 
@@ -30,6 +31,7 @@ public class OrderServiceImpl implements OrderService {
     private AccountService accountService;
 
     @Override
+    @Transactional
     @GlobalTransactional(name = "create-order", rollbackFor = Exception.class)
     public void createOrder(Order order) {
         log.info("创建订单");
